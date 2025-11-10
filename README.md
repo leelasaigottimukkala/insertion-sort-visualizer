@@ -74,7 +74,9 @@ python insertion_sort_visualizer.py
 
 ## 📷 Screenshots
 
-(Add screenshots of your visualizer here)
+![Visualizer Output](screenshots/output1.png)
+![Visualizer Output](screenshots/output2.png)
+![Visualizer Output](screenshots/output3.png)
 
 ---
 
