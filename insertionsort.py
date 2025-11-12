@@ -36,13 +36,13 @@ def insertionsort(data):
         key = data[i]
         j = i - 1
 
-        color_array[i] = "red"  # current element
+        color_array[i] = "red" 
         drawbars(data)
         time.sleep(0.3)
 
         while j >= 0 and data[j] > key:
             data[j + 1] = data[j]
-            color_array[j] = "yellow"  # shifting element
+            color_array[j] = "yellow"  
             drawbars(data)
             time.sleep(0.3)
             color_array[j] = "blue"
@@ -50,12 +50,11 @@ def insertionsort(data):
 
         data[j + 1] = key
 
-        # Mark placed element as green
+
         color_array[j + 1] = "green"
         drawbars(data)
         time.sleep(0.3)
 
-    # Final: all bars green
     for k in range(n):
         color_array[k] = "green"
     drawbars(data)
